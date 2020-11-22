@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/01.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow: auto;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+    background-color: rgba(248, 249, 245, 0.8);
+}
+
+#wrapper2 {
+    max-width: 1000px;
+    margin: 30px auto 0px auto;
+    background-color: rgba(248, 249, 245, 0.8);
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+article {
+    margin: 8px;
+}
+
+#correct {
+    color: #26bf00;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: #de0a00;
+    font-weight: bold;
+}
+
+#odp {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
