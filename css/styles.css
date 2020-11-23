@@ -33,6 +33,7 @@ header img {
 
 article {
     margin: 8px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #correct {
